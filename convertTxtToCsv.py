@@ -7,7 +7,7 @@
 # Author: Sebastian Schweiger
 # Date: 22.01.2019
 # Last Update: 10.02.2019
-# Version 1.1
+# Version 1.0
 # ***********************************************
 
 
