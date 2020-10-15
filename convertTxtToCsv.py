@@ -40,7 +40,7 @@ def process_files(delimiter, separator):
 
     for file in glob.glob("*.txt"):
         df = pd.read_fwf(file, delimiter=delimiter)
-        df.to_csv("..\\output\\"+file[:4]+".csv", sep=separator, index=False)
+        df.to_csv("..\\output\\"+file[:-4]+".csv", sep=separator, index=False)
         print(file)
 
 
