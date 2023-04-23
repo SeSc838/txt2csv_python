@@ -23,7 +23,7 @@ def choose_delimiter():
 
 def choose_separator():
     """Get user input if the user wants to choose the seperatorself.
-    I "y/Y" (yes) get input what tehe separator should be and return itself.
+    If "y/Y" (yes) get input what the separator should be and return itself.
     Else return standard value (';')."""
     choice = input(
         "Do you want to change the separator for the output files (not recommended)? (y/n)\n")
